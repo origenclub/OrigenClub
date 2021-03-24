@@ -1,0 +1,163 @@
+.bg-danger, .bg-success {
+	padding: 0 5px;
+}
+
+
+.imagen1 {
+  padding: 3px 10px;
+  border-radius: 25px;  
+  margin-bottom: -30px;
+  margin-top:-30px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.cuerpo {
+  font-family: 'Raleway', sans-serif;
+  padding: 10px;
+  background: #FFFFFF;
+}
+.cuerpo1 {
+  padding: 30px;
+  text-align: center;
+  background: #EFEDE9;
+}
+.cuerpo2 {
+  font-size: 50px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #132533;
+}
+
+/* Style the topnav links */
+.topnav .menu {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav .menu:hover {
+  background-color: #dbe8ed;
+  color: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #132533;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #EFEDE9;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background:  #132533;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav {
+    float: none;
+    width: 100%;
+  }
+}
+
+.principal {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #132533;
+}
+
+.menu1 {
+  float: left;
+}
+
+.fila{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.fil:hover {
+  background-color: #111;
+}
+.center {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+.vertical {
+  list-style-type: none;
+  margin-top: 60px;
+  padding: 0;
+  width: 200px;
+  background-color: #132533;
+ }
+
+.v .verti {
+  display: block;
+  color: #ffffff;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.vt .activo {
+  background-color: #dbe8ed;
+  color: white;
+}
+
+.t .vert:hover:not(.activo) {
+  background-color: #dbe8ed;
+  color: white;
+}
